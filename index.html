@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Epic Counter !</title>
+
+    
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div>
+        <h3>Trajets :</h3>
+        <h2 class="trajVar">0</h2>
+        <h3><span>Frostiz</span> Récoltés :</h3>
+        <h2 class="ressourcejVar">0</h2>
+        <h3>Pretecteur de ressources : </h3>
+        <h2 class="protecteurVar">0</h2>
+        <h3><span>Frostiz Soufflé</span> : </h3>
+        <h2>12</h2>
+    </div>
+
+    <div>
+        <h4>Trajets</h4>
+        <button onclick="remTraj()">-</button><button onclick="addTraj()">+</button>
+        <h4>Récolte</h4>
+        <button onclick="remRessource()">-</button><button onclick="addRessource()">+</button>
+        <h4>Protecteur</h4>
+        <button onclick="remProtecteur()">-</button><button onclick="addProtecteur()">+</button>
+        <h4><span>Frostiz Soufflé</span></h4>
+        <button>-</button><button>+</button>
+
+        <h4>Nom de la ressource classique</h4>
+        <input type="text"> <button>Valider</button>
+        <h4>Nom de la ressource rare</h4>
+        <input type="text"> <button>Valider</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
