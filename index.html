@@ -6,31 +6,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Epic Counter !</title>
 
-    
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    
 
 </head>
 <body>
-    <div>
-        <h3>Trajets :</h3>
-        <h2 class="trajVar">0</h2>
-        <h3><span>Frostiz</span> Récoltés :</h3>
-        <h2 class="ressourcejVar">0</h2>
-        <h3>Pretecteur de ressources : </h3>
-        <h2 class="protecteurVar">0</h2>
-        <h3><span>Frostiz Soufflé</span> : </h3>
-        <h2>12</h2>
+    <div class="screen">
+        <h3>Trajets : <span class="trajVar viewVar">0</span></h3>
+        <h3><span>Frostiz</span> Récoltés : <span class="ressourcejVar viewVar">0</span></h3>
+        <h3>Pretecteur de ressources : <span class="protecteurVar viewVar">0</span></h3>
+        <h3><span>Frostiz Soufflé</span> : <span class="rareVar viewVar">0</span></h3>
     </div>
 
-    <div>
-        <h4>Trajets</h4>
-        <button onclick="remTraj()">-</button><button onclick="addTraj()">+</button>
-        <h4>Récolte</h4>
-        <button onclick="remRessource()">-</button><button onclick="addRessource()">+</button>
-        <h4>Protecteur</h4>
-        <button onclick="remProtecteur()">-</button><button onclick="addProtecteur()">+</button>
-        <h4><span>Frostiz Soufflé</span></h4>
-        <button>-</button><button>+</button>
+    <div class="setting">
+        <div class="ceReglage">
+            <h4>Trajets</h4>
+            <button onclick="remTraj()">-</button>
+            <button onclick="addTraj()">+</button>
+        </div>
+        <div class="ceReglage">
+            <h4>Recolte</h4>
+            <button onclick="remRessource()">-</button>
+            <button onclick="addRessource()">+</button>
+        </div>
+        
+        <div class="ceReglage">
+            <h4>Protecteur</h4>
+            <button onclick="remProtecteur()">-</button>
+            <button onclick="addProtecteur()">+</button>
+        </div>
+
+        <div class="ceReglage"> 
+            <h4><span>Frostiz Soufflé</span></h4>
+            <button>-</button>
+            <button>+</button>
+        </div>
 
         <h4>Nom de la ressource classique</h4>
         <input type="text"> <button>Valider</button>

@@ -1,9 +1,15 @@
 :root {
     --main-text: #000;
     --main-color: #212563;
-    }
+}
 
-button{
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* button{
     width: 30px;
     height: 30px;
     background-color: var(--main-color);
@@ -14,4 +20,33 @@ button{
     color: white;
     font-weight: 900;
     font-size: 24px;
+} */
+
+.screen{
+    padding: 30px;
+    border: solid 1px;
+}
+
+h3{
+    font: normal normal 400 16px/20px Poppins;
+    margin-bottom: 4px;
+}
+h3 .viewVar{
+    font: normal normal 600 20px/20px Poppins;
+    margin-top: 0;
+}
+
+.setting{
+    padding: 30px;
+    border: solid 1px;
+    margin-top: 30px;
+}
+
+.ceReglage{
+    width: *10px;
+}
+
+h4{
+    display: inline-block;
+    margin: 0;
 }
