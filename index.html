@@ -20,34 +20,56 @@
     </div>
 
     <div class="setting">
+
         <div class="ceReglage">
+            
             <h4>Trajets</h4>
-            <button onclick="remTraj()" class="minus">-</button>
-            <button onclick="addTraj()" class="plus">+</button>
+        
+            <div class="settingBut">
+                <button onclick="remTraj()" class="minus">-</button>
+                <button onclick="addTraj()" class="plus">+</button>
+            </div>
         </div>
+
         <div class="ceReglage">
             <h4>Recolte</h4>
-            <button onclick="remRessource()" class="minus">-</button>
-            <button onclick="addRessource()" class="plus">+</button>
+            <div class="settingBut">
+                <button onclick="remRessource()" class="minus">-</button>
+                <button onclick="addRessource()" class="plus">+</button>
+            </div>
         </div>
         
         <div class="ceReglage">
             <h4>Protecteur</h4>
-            <button onclick="remProtecteur()" class="minus">-</button>
-            <button onclick="addProtecteur()" class="plus">+</button>
+            <div class="settingBut">
+                <button onclick="remProtecteur()" class="minus">-</button>
+                <button onclick="addProtecteur()" class="plus">+</button>
+            </div>
         </div>
 
         <div class="ceReglage"> 
             <h4><span>Frostiz Soufflé</span></h4>
-            <button onclick="remRare()" class="minus">-</button>
-            <button onclick="addRare()" class="plus">+</button>
+            <div class="settingBut">
+                <button onclick="remRare()" class="minus">-</button>
+                <button onclick="addRare()" class="plus">+</button>
+            </div>
         </div>
 
-        <h4>Nom de la ressource classique</h4><br>
-        <input type="text" id="ressourceNameInput"> <button class="validBut" onclick="updateRessourceName()">Valider</button>
-        <br>
-        <h4>Nom de la ressource rare</h4><br>
-        <input type="text" id="rareNameInput"> <button class="validBut" onclick="updateRareName()">Valider</button>
+        <div class="ceReglage lg">
+            <h4>Nom de la ressource classique</h4>
+            <div class="settingButInput">
+                <input type="text" id="ressourceNameInput">
+                <button class="validBut" onclick="updateRessourceName()">></button>
+            </div>
+        </div>
+
+        <div class="ceReglage lg">
+        <h4>Nom de la ressource rare</h4>
+        <div class="settingButInput">
+            <input type="text" id="rareNameInput">
+            <button class="validBut" onclick="updateRareName()">></button>
+        </div>
+    </div>
     </div>
     <script src="script.js"></script>
 </body>
