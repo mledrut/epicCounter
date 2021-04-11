@@ -33,8 +33,12 @@ body{
 }
 
 h3{
-    font: normal normal 400 16px/20px Poppins;
+    font: normal normal 600 16px/20px Poppins;
     margin-bottom: 4px;
+    /* -webkit-text-stroke: 1px white; */
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+    color: white;
+
 }
 h3 .viewVar{
     font: normal normal 600 20px/20px Poppins;
