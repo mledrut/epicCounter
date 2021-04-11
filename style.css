@@ -29,7 +29,7 @@ body{
 .screen{
     padding: 30px;
     border: solid 1px;
-    background-color: green;
+    background-color: rgb(0, 255, 0);
 }
 
 h3{
